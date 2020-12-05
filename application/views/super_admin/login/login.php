@@ -36,7 +36,8 @@
                         <div class="text-center">
                             <img src="<?php echo base_url();?>assets/smkn1.png" style="width:150px;">
                         </div>
-                        <h3 class="box-title" style="font-size:14px; text-align:center; margin-bottom:0px;">SELAMAT DATANG </h3>
+                        <h3 class="box-title" style="font-size:14px; text-align:center; margin-bottom:0px;">ADMIN LOGIN </h3>
+                        <h4 style="font-size:12px; text-align:center; margin:0px; margin-bottom:20px;"> SELAMAT DATANG </h4>
                         <h4 style="font-size:12px; text-align:center; margin:0px; margin-bottom:20px;">APLIKASI REKAM POIN PELANGGARAN SISWA </h4>
                         <div>
                             <form action="<?php echo base_url(); ?>login/verification" method="post" enctype="multipart/form-data">
@@ -60,6 +61,13 @@
                                     <input class="form-control" type="password" required name="password">
                                 </div>
                                 <button type="submit" class="btn btn-primary">Login</button>
+                                <br>
+                                <br>
+                                <br>
+                                <div class="form-group text-center">
+                                    
+                                <a href="<?=base_url()?>" class="btn btn-block btn-danger">Login sbg guru</a>
+                                </div>
                             </form>
                         </div>
                     </div>

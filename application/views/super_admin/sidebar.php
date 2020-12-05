@@ -50,12 +50,12 @@
                     </li>
                     <li>
                         <a href="<?php echo base_url();?>admin/index" class="waves-effect"><i class="fa fa-user fa-fw"
-                                aria-hidden="true"></i>Admin</a>
+                                aria-hidden="true"></i>Pengguna</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="<?php echo base_url();?>tentang_kami/index" class="waves-effect"><i class="fa fa-file-text fa-fw"
                                 aria-hidden="true"></i>Tentang Kami</a>
-                    </li>
+                    </li> -->
                 </ul>
                 <div class="center p-20">
                     <a href="<?php echo base_url();?>login/logout"

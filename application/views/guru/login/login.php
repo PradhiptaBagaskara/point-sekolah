@@ -67,9 +67,13 @@
                                     <input class="form-control" type="password" required name="password" id="password">
                                 </div>
                                 <button onclick="login()" class="btn btn-block btn-primary">Login</button>
-                                
-                            <br>
-                            <button onclick="check()" class="btn btn-block btn-danger">Cek Login</button>
+                                <br>
+                                <div class="form-group text-center">
+                                    
+                                <a href="<?=base_url()?>login/" class="btn btn-block btn-danger">Login sbg admin</a>
+                                </div>
+            
+                            
                         </div>
                     </div>
                 </div>
